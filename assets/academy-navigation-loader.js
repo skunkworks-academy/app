@@ -1,8 +1,8 @@
 (function () {
   "use strict";
 
-  var canonicalUrl = "https://skunkworksacademy.com/assets/academy-navigation.js?v=2026.07.04";
-  var selector = 'script[data-skunkworks-global-nav="v3"]';
+  var canonicalUrl = "https://skunkworksacademy.com/assets/academy-navigation.js?v=2026.07.06.1";
+  var selector = 'script[data-skunkworks-global-nav="v5"]';
   var pages = [
     {
         "label":  "Jobs",
@@ -86,7 +86,7 @@
   var script = document.createElement("script");
   script.defer = true;
   script.src = canonicalUrl;
-  script.setAttribute("data-skunkworks-global-nav", "v3");
+  script.setAttribute("data-skunkworks-global-nav", "v5");
 
   (document.head || document.documentElement).appendChild(script);
 })();
